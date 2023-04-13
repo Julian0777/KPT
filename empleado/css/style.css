@@ -1,0 +1,135 @@
+
+*{
+    
+    margin: 0;
+    padding: 0;
+    
+
+}
+
+
+
+
+.kptimg{
+    background: #000;
+    color: #fff;
+    font-size: 3vh;
+    position: absolute;
+    width: 100vw;
+    height: 20vh;
+    
+    text-align: left;
+
+}
+
+h1{
+    position: absolute;
+    left: 12svw;
+    top: 6vh;
+    
+}
+
+
+img{
+    height: 10vh;
+    position: absolute;
+    top: 5vh;
+    left: 4.5vh;
+}
+
+
+
+
+.nav{
+    height: 7vh;
+    font-size: 3vh;
+    text-align: left;
+}
+
+
+
+.nav a{
+    font-family: 'Abril Fatface', cursive;
+    display: inline-block;
+    height: 10vh;
+    padding: 1vh;
+    margin-left: 3vh;
+    text-decoration: none;
+    color: #000;
+    border-right: solid 2px #000;
+    margin-right: 2vw;
+}
+
+.form_orden{
+    background: #D6D5D3;
+    position: absolute;
+    text-align: center;
+    height: 60vh;
+    width: 40vw;
+    top: 33vh;
+    left: 30vw;
+    border-radius: 1%;
+    box-shadow: .5px .5px ;
+   
+}
+
+h2{
+    margin: 5vh;
+}
+
+
+
+input{
+    left: 35vw;
+    height: 5vh;
+    width: 35vw;
+    margin: 1vh;
+}
+
+.producto{
+    top: 45vh;
+    
+}
+
+.cantidad{
+    top: 50vh;
+}
+
+.comentarios{
+    height: 17vh;
+    text-align: left;
+    text-decoration-color: #fff;
+   
+}
+
+.boton{
+    background: #fff;
+    margin: 2vh;
+    width: 17vw;
+    border: none;
+    border-radius: 1%;
+}
+
+.boton:hover{
+    cursor: pointer;
+    
+}
+
+.form_venta{
+    background: #D6D5D3;
+    position: absolute;
+    text-align: center;
+    height: 60vh;
+    width: 40vw;
+    top: 100vh;
+    left: 30vw;
+    border-radius: 1%;
+    box-shadow: .5px .5px ;
+    
+}
+
+
+
+
+
+

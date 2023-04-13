@@ -1,0 +1,213 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+
+.nav{
+    
+    margin: 0;
+    height: 10vh;
+    font-size: 4vh;
+    text-align: left;
+   
+}
+
+
+.nav a{
+    font-family: 'Abril Fatface', cursive;
+    
+    display: inline-block;
+    height: 10vh;
+    padding: 2vh;
+    margin-left: 3vh;
+    text-decoration: none;
+    color: #000;
+    border-right: solid 2px #000;
+    margin-right: 2vw;
+    height: 4vh;
+    
+    
+}
+
+img{
+    position: absolute;
+    height: 20vh;
+
+
+}
+
+.usuario{
+    height: 8vh ;
+    border-radius: 100%;
+    top: 1vh;
+    left: 94vw
+}
+
+
+.header{
+    background: #000;
+    color: #fff;
+    font-size: 3vh;
+    position: absolute;
+    width: 100vw;
+    height: 10vh;
+    text-align: left;
+
+}
+
+.header img{
+    height: 7vh;
+    left: 1vh;
+    top: 1.5vh;
+}
+
+.header p{
+    position: absolute;
+    left: 90vw;
+    top: 3vh;
+}
+
+.header h1{
+    position: absolute;
+    left: 5vw;
+    top: 2vh;
+    font-size: 5vh;
+}
+
+
+
+.especiales{
+    position: absolute;
+    top: 22vh ;
+    left: 9vw;
+    font-size: 4vh;
+    color: #004AAD;
+}
+
+.postres{
+    position: absolute;
+    top: 22vh;
+    font-size: 4vh;
+    left: 65vw;
+    color: #004AAD;
+    
+}
+
+
+body img{
+    position: absolute;
+
+    left: 15vh;
+
+}
+
+.uno{
+    top: 30vh;
+    height: 19vh;
+
+}
+
+.dos{
+    top: 55vh;
+    height: 17.5vh;
+
+}
+
+.tres{
+    top: 80vh;
+    height: 20vh;
+
+}
+
+.cuatro{
+    top: 105vh;
+    height: 21vh;
+
+}
+
+.cinco{
+    top: 130vh;
+    height: 22vh;    
+
+}
+
+.seis{
+    left: 60vw;
+    top: 30vh;
+    height: 18vh;
+
+}
+
+.siete{
+
+    left: 60vw;
+    top: 55vh;
+    height: 19vh;
+}
+
+.jamon{
+    position: absolute;
+    top: 35vh;
+    left: 25vw;
+    font-size: 4vh;
+    color: #AA1C27;
+
+}
+
+.tortilla{
+    position: absolute;
+    top: 60vh;
+    left: 25vw;
+    font-size: 3vh;
+    color: #AA1C27;
+
+}
+
+.cocido{
+    position: absolute;
+    top: 85vh;
+    left: 25vw;
+    font-size: 3vh;
+    color: #AA1C27;
+
+}
+
+.paella{
+    position: absolute;
+    top: 110vh;
+    left: 25vw;
+    font-size: 3vh;
+    color: #AA1C27;
+
+}
+
+.gazpacho{
+    position: absolute;
+    top: 135vh;
+    left: 25vw;
+    font-size: 3vh;
+    color: #AA1C27;
+
+}
+
+.chocolate{
+    position: absolute;
+    top: 35vh;
+    left: 77vw;
+    font-size: 3vh;
+    color: #AA1C27;
+
+}
+
+.tiramisu{
+    position: absolute;
+    top: 60vh;
+    left: 77vw;
+    font-size: 3vh;
+    color: #AA1C27;
+
+}
+
+
+

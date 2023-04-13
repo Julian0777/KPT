@@ -1,0 +1,100 @@
+*{
+padding: 0;
+margin: 0;    
+background: #E7E7E6;
+    }
+
+img{
+    height: 10vh;
+}
+
+.nav{
+    background: #000;
+    color: #fff;
+    position: absolute;
+    height: 15vh;
+    width: 100vw;
+    top: 5vh;
+    text-align: center;
+    font-size: 3vh;
+}
+
+h1{
+    margin-top: 2vw;
+    background: #000;
+}
+
+
+.logo{
+    height: 10vh;
+    position: absolute;
+    top: 1.2vw;
+    left: 1vw;
+}
+
+
+
+form{
+    background: #fff;
+    height: 45vh;
+    width: 20vw;
+    position: absolute;
+    left: 40vw;
+    top: 30vh;
+    padding: 1vh;
+    background: #fff;
+    text-align: center;
+}
+
+.usuario_img{
+    border-radius:  100px;
+   
+    left: 8.5vw;
+}
+
+
+
+h2{
+    margin-top: 2vh;
+    font-size: 4vh;
+    background: #fff;
+}
+
+.usuario{
+    background: #AA1C27;
+    color: #fff;
+    height: 5vh;
+    width: 19vw;
+    margin-top: 3vh;
+    margin-left: 0;
+    text-align: center;
+    font-size: 2vh;
+    border: none;
+}
+
+.password{
+    background: #AA1C27;
+    color: #fff;
+    height: 5vh;
+    width: 19vw;
+    margin-top: 2vh;
+    margin-left: 0;
+    text-align: center;
+    font-size: 2vh;
+    border: none;
+
+}
+ .boton{
+    height: 4vh;
+    width: 7vw;
+    left: 6.5vw;
+    border: none;
+    background: #fff;
+    font-size: 2vh;
+    color: #004AAD;
+     margin-top: 3vh;
+ }
+.boton:hover{
+    background: #E7E7E6;
+    cursor: pointer;
+}

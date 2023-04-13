@@ -1,0 +1,74 @@
+*{
+    background: url(fondo_1.jpg) no-repeat center fixed;
+    background-size: 100% 100%;
+}
+
+img{
+    height: 20vh;
+}
+
+input p{
+    color: #fff;
+}
+
+
+h1{
+    position: absolute;
+    top: 15vh;
+    left: 10vw;
+    background: #fff;
+}
+
+form{
+    position: absolute;
+    top: 10vh;
+    left: 30vw;
+    background: #fff;
+    height: 70vh;
+    width: 65vh;
+    border: solid 3px #000; 
+    text-align: center;
+}
+
+input{
+    position: absolute;
+    background: #000;
+    color: #fff;
+    height: 4vh;
+    text-align: center;
+    width: 45vh;
+    
+}
+
+.nombre{
+    
+    top: 29vh;
+    left: 10vh;
+}
+
+.doc{
+    top: 36vh;
+    left: 10vh;
+    
+}
+
+.correo{
+    top: 43vh;
+    left: 10vh;
+}
+
+.tel{
+    top: 50vh;
+    left: 10vh;
+}
+
+.boton{
+    width: 20vh;
+    top: 60vh;
+    left: 22vh;
+}
+
+.boton:hover{
+    cursor: pointer;
+}
+

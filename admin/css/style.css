@@ -1,0 +1,142 @@
+
+*{
+    
+    margin: 0;
+    padding: 0;
+    
+
+}
+
+
+
+
+.kptimg{
+    background: #000;
+    color: #fff;
+    font-size: 3vh;
+    position: absolute;
+    width: 100vw;
+    height: 20vh;
+    
+    text-align: left;
+
+}
+
+h1{
+    position: absolute;
+    left: 12svw;
+    top: 6vh;
+    
+}
+
+
+img{
+    height: 10vh;
+    position: absolute;
+    top: 5vh;
+    left: 4.5vh;
+}
+
+
+
+
+.nav{
+    height: 7vh;
+    font-size: 3vh;
+    text-align: left;
+}
+
+
+
+.nav a{
+    font-family: 'Abril Fatface', cursive;
+    display: inline-block;
+    height: 10vh;
+    padding: 1vh;
+    margin-left: 3vh;
+    text-decoration: none;
+    color: #000;
+    border-right: solid 2px #000;
+    margin-right: 2vw;
+}
+
+.form_orden{
+    background: #D6D5D3;
+    position: absolute;
+    text-align: center;
+    height: 60vh;
+    width: 70vw;
+    top: 33vh;
+    left: 15vw;
+    border-radius: 1%;
+    box-shadow: .5px .5px ;
+   
+}
+
+h2{
+    margin: 5vh;
+}
+
+
+
+input{
+    left: 35vw;
+    height: 6vh;
+    width: 32vw;
+    margin: 1vh;
+    position: absolute;
+}
+
+.doc{
+    left: 0;
+}
+
+.nombre{
+    left: 0;
+    top: 22vh;
+}
+
+.telefono{
+    left: 0;
+    top: 30vh;
+}
+
+.horario{
+    
+}
+
+.salario{
+    top: 22vh;
+    
+}
+
+.experiencia{
+    top: 30vh;
+}
+
+
+
+
+
+
+.boton{
+    position: inherit;
+    background: #fff;
+    margin: 35vh;
+    width: 17vw;
+    border: none;
+    border-radius: 1%;
+    top: 40vh;
+}
+
+.boton:hover{
+    cursor: pointer;
+    
+}
+
+
+
+
+
+
+
