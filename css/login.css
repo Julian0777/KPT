@@ -5,23 +5,46 @@ background: #E7E7E6;
     }
 
 img{
-    height: 10vh;
+    height: 20%;
 }
 
 .nav{
+    font-family: 'Cinzel', serif;
     background: #000;
     color: #fff;
     position: absolute;
-    height: 15vh;
+    height: 15%;
     width: 100vw;
     top: 5vh;
     text-align: center;
     font-size: 3vh;
+    box-sizing: border-box;
+    padding: 2%;
+  
 }
 
 h1{
-    margin-top: 2vw;
+    display: inline-block;
     background: #000;
+    margin-left: 5%;
+}
+
+.volver{
+    position: absolute;
+    color: #fff;
+    background: #AA1C27;
+    text-decoration: none;
+    font-size: 4vh;
+    height: 50%;
+    width: 15%;
+    padding: .5%;
+    box-sizing: border-box;
+    text-align: center;
+    left: 82%;
+}
+
+.volver:hover{
+    background: #771818;
 }
 
 
@@ -35,21 +58,21 @@ h1{
 
 
 form{
-    background: #fff;
-    height: 45vh;
-    width: 20vw;
+    
     position: absolute;
-    left: 40vw;
-    top: 30vh;
-    padding: 1vh;
+    background: #fff;
+    height: 60%;
+    width: 30%;
+    left: 35%;
+    top: 27%;
     background: #fff;
     text-align: center;
+    
 }
 
 .usuario_img{
     border-radius:  100px;
-   
-    left: 8.5vw;
+    margin-top: 10%;
 }
 
 
@@ -63,38 +86,66 @@ h2{
 .usuario{
     background: #AA1C27;
     color: #fff;
-    height: 5vh;
-    width: 19vw;
-    margin-top: 3vh;
-    margin-left: 0;
+    height: 10%;
+    width: 70%;
+    margin-top: 10%;
     text-align: center;
     font-size: 2vh;
     border: none;
+}
+
+.usuario:focus{
+    background: #771818;
 }
 
 .password{
+
     background: #AA1C27;
     color: #fff;
-    height: 5vh;
-    width: 19vw;
-    margin-top: 2vh;
-    margin-left: 0;
+    height: 10%;
+    width: 70%;
+    margin-top: 5%;
     text-align: center;
     font-size: 2vh;
     border: none;
 
 }
+
+.password:focus{
+    background: #771818;
+}
  .boton{
-    height: 4vh;
-    width: 7vw;
-    left: 6.5vw;
+     text-decoration: none;
+   
+    height: 10%;
+    width: 30%;
     border: none;
     background: #fff;
-    font-size: 2vh;
+    font-size: 100%;
     color: #004AAD;
-     margin-top: 3vh;
+    margin-top: 3%;
+     
+     
  }
+
+a{
+    text-decoration: none;
+    background: #fff;
+}
+
+buttom a:hover{
+    background: #E7E7E6; 
+}
+
 .boton:hover{
     background: #E7E7E6;
     cursor: pointer;
 }
+
+.empleado{
+    background: #fff;
+    text-decoration: none;
+    margin-top: 90%;
+}
+
+

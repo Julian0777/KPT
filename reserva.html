@@ -4,46 +4,61 @@
     <meta charset="UTF-8">
     <title>Reserva</title>
     <link rel="stylesheet" href="css/reserva.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+
 </head>
 <body>
        
     <div class="nav">
+        <a href="index.html">INICIO</a>
+        <a href="menu.html">CARTA</a>
+        <a href="reserva.html">RERSERVA</a>
+        <a href="contacto.html">CONTACTO</a>
+
+    </div>   
+       
+    
+    <div class="header">
         <h1>RESERVAS</h1>
-            <h2>Ke Pasa Tió</h2>
+            <p>Ke Pasa Tió</p>
 
         <a href="index.html"><img src="img/logokpt.jpeg" class="logo"></a>
     </div>
     
     <form action="">
+    <img src="img/lgogris.jfif" alt="">
     
-    <select class="fecha">
-        <option value="1">FECHA</option>
+    <p>Comienza tu reserva</p>
+    
+    <select class="personas">
+        <option value="#">Num Personas</option>
+        <option value="">1</option>
+        <option value="">2</option>
+        <option value="">3</option>
+        <option value="">4</option>
+        <option value="">5</option>
+    </select>
+    
+   <input type="date" placeholder="Fecha"  value="Fecha"class="fecha">
+    
+    
+   <input type="time" class="hora" placeholder="Hora">
+    
+    <select  class="mesa">
+        <option value="#">MESA</option>
+        <option value="1">1</option>
         <option value="2">2</option>
         <option value="3">3</option>
         <option value="4">4</option>
-        <option value="5">5</option>
-        <option value="6">6</option>        
+        <option value="5">5</option>        
     </select>
     
-    <select class="hora">
-        <option value="1">HORA</option>
-        <option value="2">2</option>
-        <option value="3">3</option>
-        <option value="4">4</option>
-        <option value="5">5</option>
-        <option value="6">6</option>        
-    </select>
+    <!--<input type="button" class="boton" value="CONTINUAR">-->
     
-    <select class="mesa" value="MENU">
-        <option value="1">MESA</option>
-        <option value="2">1</option>
-        <option value="3">2</option>
-        <option value="4">3</option>
-        <option value="5">4</option>
-        <option value="6">5</option>        
-    </select>
-    
-    <a href="reserva_1.html"> <input type="button" class="boton" value="CONTINUAR"> </a>
+    <a href="reserva_1.html" class="boton"> CONTINUAR </a>
     
     </form>
     

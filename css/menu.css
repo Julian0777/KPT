@@ -1,95 +1,91 @@
 *{
     padding: 0;
     margin: 0;
-    
+    background: #f0f0f0; 
 }
 
 .nav{
-    
-    margin: 0;
-    height: 10vh;
+    background: #AA1C27;
+    font-family: 'Cinzel', serif;
+    position: fixed;
     font-size: 4vh;
     text-align: left;
-   
+    height: 7%;
+    width: 100%;
+    margin: 0;
+    z-index: 100;
 }
+
 
 
 .nav a{
-    font-family: 'Abril Fatface', cursive;
-    
+    background: #AA1C27;
+    color: #fff;
     display: inline-block;
-    height: 10vh;
-    padding: 2vh;
-    margin-left: 3vh;
+    height: 100%;
+    width: 24%;
     text-decoration: none;
-    color: #000;
-    border-right: solid 2px #000;
-    margin-right: 2vw;
-    height: 4vh;
-    
-    
+    text-align: center;
+  
 }
 
-img{
-    position: absolute;
-    height: 20vh;
-
-
-}
-
-.usuario{
-    height: 8vh ;
-    border-radius: 100%;
-    top: 1vh;
-    left: 94vw
+a:hover{
+    background: #771818;
 }
 
 
 .header{
     background: #000;
+    background-color: #000;
     color: #fff;
     font-size: 3vh;
+    font-family: 'Cinzel', serif; 
     position: absolute;
-    width: 100vw;
-    height: 10vh;
+    width: 100%;
+    height: 10%;  
     text-align: left;
-
+    top: 7vh;
+    padding: 0;
 }
 
-.header img{
-    height: 7vh;
-    left: 1vh;
-    top: 1.5vh;
+.logo{
+    position: absolute;
+    height: 70%;
+    left: 1%;
+    top: 15%;
+    
 }
 
 .header p{
-    position: absolute;
-    left: 90vw;
-    top: 3vh;
+    display: inline-block;
+    margin-left: 65%;
+    margin-top: 1%;
+    background-color: #000; 
+ 
 }
 
-.header h1{
-    position: absolute;
-    left: 5vw;
-    top: 2vh;
-    font-size: 5vh;
+h1{
+    display: inline-block;
+    margin-top: 1%;
+    margin-left: 7%;
+    background-color: #000;
 }
 
 
 
 .especiales{
     position: absolute;
-    top: 22vh ;
-    left: 9vw;
+    top: 22% ;
+    left: 5%;
     font-size: 4vh;
     color: #004AAD;
 }
 
 .postres{
     position: absolute;
-    top: 22vh;
+    top: 22%;
     font-size: 4vh;
-    left: 65vw;
+    left: 60%;
     color: #004AAD;
     
 }
@@ -97,116 +93,163 @@ img{
 
 body img{
     position: absolute;
+    left: 3%;
 
-    left: 15vh;
+
 
 }
 
 .uno{
-    top: 30vh;
-    height: 19vh;
+    top: 30%;
+    height: 20%;
 
 }
 
 .dos{
-    top: 55vh;
-    height: 17.5vh;
+    top: 55%;
+    height: 18.5%;
+    
 
 }
 
 .tres{
-    top: 80vh;
-    height: 20vh;
+    top: 80%;
+    height: 21.5%;
 
 }
 
 .cuatro{
-    top: 105vh;
-    height: 21vh;
+    top: 105%;
+    height: 22.5%;
 
 }
 
 .cinco{
-    top: 130vh;
-    height: 22vh;    
+    top: 130%;
+    height: 23.5%;    
 
 }
 
 .seis{
-    left: 60vw;
-    top: 30vh;
-    height: 18vh;
+    left: 52%;
+    top: 30%;
+    height: 20%;
 
 }
 
 .siete{
 
-    left: 60vw;
-    top: 55vh;
-    height: 19vh;
+    left: 52%;
+    top: 55%;
+    height: 21%;
 }
 
 .jamon{
     position: absolute;
-    top: 35vh;
-    left: 25vw;
-    font-size: 4vh;
+    top: 30%;
+    left: 27%;
+    font-size: 3vh;
     color: #AA1C27;
 
 }
+
+.des_jamon{
+    position: absolute;
+    top: 35%;
+    left: 27%;
+}
+
 
 .tortilla{
     position: absolute;
-    top: 60vh;
-    left: 25vw;
+    top: 54%;
+    left: 27%;
     font-size: 3vh;
     color: #AA1C27;
 
 }
 
+.des_tortilla{
+    position: absolute;
+    top: 58%;
+    left: 27%;
+}
+
+
 .cocido{
     position: absolute;
-    top: 85vh;
-    left: 25vw;
+    top: 82%;
+    left: 27%;
     font-size: 3vh;
     color: #AA1C27;
 
+}
+
+.des_cocido{
+    position: absolute;
+    top: 86%;
+    left: 27%;
+    
 }
 
 .paella{
     position: absolute;
-    top: 110vh;
-    left: 25vw;
+    top: 107%;
+    left: 27%;
     font-size: 3vh;
     color: #AA1C27;
 
+}
+
+.des_paella{
+    position: absolute;
+    top: 111%;
+    left: 27%;
 }
 
 .gazpacho{
     position: absolute;
-    top: 135vh;
-    left: 25vw;
+    top: 132%;
+    left: 27%;
     font-size: 3vh;
     color: #AA1C27;
 
+}
+
+.des_gazpacho{
+    position: absolute;
+    top: 137%;
+    left: 27%;
 }
 
 .chocolate{
     position: absolute;
-    top: 35vh;
-    left: 77vw;
+    top: 30%;
+    left: 77%;
     font-size: 3vh;
     color: #AA1C27;
 
 }
 
+.des_chocolate{
+    position: absolute;
+    top: 35%;
+    left: 77%;
+}
+
 .tiramisu{
     position: absolute;
-    top: 60vh;
-    left: 77vw;
+    top: 55%;
+    left: 77%;
     font-size: 3vh;
     color: #AA1C27;
 
+}
+
+.des_tiramisu{
+    position: absolute;
+    top: 59%;
+    left: 77%;
 }
 
 

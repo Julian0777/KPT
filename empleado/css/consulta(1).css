@@ -1,0 +1,96 @@
+
+*{
+    
+    margin: 0;
+    padding: 0;
+    
+
+}
+
+
+
+
+.kptimg{
+    background: #000;
+    color: #fff;
+    font-size: 3vh;
+    position: absolute;
+    width: 100vw;
+    height: 20vh;
+    
+    text-align: left;
+
+}
+
+h1{
+    position: absolute;
+    left: 12svw;
+    top: 6vh;
+    
+}
+
+
+img{
+    height: 10vh;
+    position: absolute;
+    top: 5vh;
+    left: 4.5vh;
+}
+
+.usuario{
+    height: 8vh ;
+    border-radius: 100%;
+    top: 1vh;
+    left: 94vw;
+}
+
+.sopa{
+    left: 68vw;
+    height: 35vh;
+    top: 53vh;
+    
+}
+
+.plato{
+    height: 25vh;
+    left: 35vw;
+    top: 35vh;
+}
+
+.postre{
+    height: 35vh;
+    top: 53vh;
+}
+
+.redes{
+    height: 10vh;
+    top: 90vh;
+}
+
+
+
+.nav{
+    height: 7vh;
+    font-size: 3vh;
+    text-align: left;
+}
+
+
+
+.nav a{
+    font-family: 'Abril Fatface', cursive;
+    display: inline-block;
+    height: 10vh;
+    padding: 1vh;
+    margin-left: 3vh;
+    text-decoration: none;
+    color: #000;
+    border-right: solid 2px #000;
+    margin-right: 2vw;
+}
+
+p{
+    position: absolute;
+    top: 100%;
+}
+

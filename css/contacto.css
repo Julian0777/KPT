@@ -1,15 +1,7 @@
-
 *{
-    
-    margin: 0;
-    padding: 0;
-    
-
+padding: 0;
+margin: 0;
 }
-
-
-
-
 
 .nav{
     background: #AA1C27;
@@ -82,87 +74,4 @@ p{
     top: 15%;
     left: 1vw;
 }
-
-form{
-    position: absolute;
-    top: 25%;
-    left: 15%;
-    background: #f0f0f0;
-    text-align: center;
-    height: 75%;
-    width: 70%;
-    font-size: 10vh;
-    padding: 0;
-}
-
-
-.lgogris{
-    height: 35%;
-}
-
-h2{
-    background: #f0f0f0;
-    font-size: 40%;
-}
-
-
-
-input{
-    position: absolute;
-    height: 6%;
-    width: 40%;
-    text-align: center;
-    background: #000;
-    color: #fff;
-    display: inline; 
-}
-
-.doc{
-    left: 7%;
-    top: 50%;
-}
-
-.nombre{
-    left: 7%;
-    top: 60%;
-    
-}
-
-.telefono{
-    left: 7%;
-    top: 70%;
-}
-
-.horario{
-    top: 50%;
-    right: 7%;
-}
-
-.salario{
-   top: 60%;
-   right: 7%;
-}
-
-.experiencia{
-    top: 70%;
-    right: 7%;
-}
-
-
-.boton{
-    border: none;
-    border-radius: 1%;
-    top: 80%;
-    left: 30%;
-}
-
-.boton:hover{
-    cursor: pointer;
-    
-}
-
-
-
-
-
 
