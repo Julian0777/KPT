@@ -1,0 +1,154 @@
+*{
+padding: 0;
+margin: 0;    
+background: #E7E7E6;
+    }
+
+img{
+    height: 20%;
+}
+
+.nav{
+    font-family: 'Cinzel', serif;
+    background: #000;
+    color: #fff;
+    position: absolute;
+    height: 15%;
+    width: 100vw;
+    top: 5vh;
+    text-align: center;
+    font-size: 3vh;
+    box-sizing: border-box;
+    padding: 2%;
+  
+}
+
+h1{
+    display: inline-block;
+    background: #000;
+    margin-left: 5%;
+}
+
+.volver{
+    position: absolute;
+    color: #fff;
+    background: #AA1C27;
+    text-decoration: none;
+    font-size: 4vh;
+    height: 50%;
+    width: 15%;
+    padding: .5%;
+    box-sizing: border-box;
+    text-align: center;
+    left: 82%;
+}
+
+.volver:hover{
+    background: #771818;
+}
+
+
+.logo{
+    height: 10vh;
+    position: absolute;
+    top: 1.2vw;
+    left: 1vw;
+}
+
+
+
+form{
+    
+    position: absolute;
+    background: #fff;
+    height: 60%;
+    width: 30%;
+    left: 35%;
+    top: 27%;
+    background: #fff;
+    text-align: center;
+    
+}
+form *::placeholder{
+    color: #fff;
+}
+
+.usuario_img{
+    border-radius:  100px;
+    margin-top: 10%;
+}
+
+
+
+h2{
+    margin-top: 2vh;
+    font-size: 4vh;
+    background: #fff;
+}
+
+.usuario{
+    background: #AA1C27;
+    color: #fff;
+    height: 10%;
+    width: 70%;
+    margin-top: 10%;
+    text-align: center;
+    font-size: 2vh;
+    border: none;
+}
+
+.usuario:focus{
+    background: #771818;
+}
+
+.password{
+
+    background: #AA1C27;
+    color: #fff;
+    height: 10%;
+    width: 70%;
+    margin-top: 5%;
+    text-align: center;
+    font-size: 2vh;
+    border: none;
+
+}
+
+.password:focus{
+    background: #771818;
+}
+ .boton{
+     text-decoration: none;
+   
+    height: 10%;
+    width: 30%;
+    border: none;
+    background: #fff;
+    font-size: 100%;
+    color: #004AAD;
+    margin-top: 3%;
+     
+     
+ }
+
+a{
+    text-decoration: none;
+    background: #fff;
+}
+
+buttom a:hover{
+    background: #E7E7E6; 
+}
+
+.boton:hover{
+    background: #E7E7E6;
+    cursor: pointer;
+}
+
+.empleado{
+    background: #fff;
+    text-decoration: none;
+    margin-top: 90%;
+}
+
+

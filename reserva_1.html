@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Datos personales</title>
+    <link rel="stylesheet" href="css/reserva_1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+</head>
+<body>
+      
+     <div class="header">
+        <img src="img/logokpt.jpeg" class="logo">
+        <h1>Termina tu Reserva</h1> <P>Ke Pasa Tió</P>
+    </div>
+    
+       
+
+      <div class="nav">
+        <a href="index.html">INICIO</a>
+        <a href="menu.html">CARTA</a>
+        <a href="reserva.html">RERSERVA</a>
+        <a href="error404.html">CONTACTO</a>
+
+    </div>
+     
+     
+     
+    <form action="" class="formulario1" id="formulario1">
+    
+    <img src="img/lgogris.jfif" alt="">
+    
+    <h1>Ingresa tus Datos</h1>
+           
+        <input type="text" placeholder="Nombre" class="nombre" name="nombre" title="Anota tu Nombre" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$"  >    
+        
+        <input type="text" placeholder="Num Documento" class="doc" name="doc" title="Anota tu Numero de Documento" required>
+        
+        <input type="email" placeholder="Correo" class="correo" name="correo" title="Anota tu correo electronico" pattern=" ^[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})$" required>
+        
+        <input type="number" placeholder="Telefono" class="tel" name="tel"  title="Anota Numero Telefonico" required>
+        
+        <input type="submit" class="boton" value="Fianlizar">
+         
+    </form>
+    <script src="js/reserva1.js"></script>
+    
+</body>
+</html>

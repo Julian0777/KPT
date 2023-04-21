@@ -1,0 +1,286 @@
+
+*{
+    
+    margin: 0;
+    padding: 0;
+    
+
+}
+
+body h2{
+    text-align: center;
+}
+
+
+.nav{
+    background: #AA1C27;
+    font-family: 'Cinzel', serif;
+    padding: 0;
+    position: fixed;
+    font-size: 4vh;
+    text-align: left;
+    height: 7%;
+    width: 100%;
+    margin: 0;
+    z-index: 100;
+    box-sizing: border-box;
+}
+
+.nav a{
+    background: #AA1C27;
+    color: #fff;
+    display: inline-block;
+    height: 100%;
+    width: 24%;
+    margin: 0;
+    text-decoration: none;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+a:hover{
+    background: #771818;
+}
+
+
+
+
+
+.header{
+    background: #000;
+    background-color: #000;
+    color: #fff;
+    font-size: 3vh;
+    font-family: 'Cinzel', serif; 
+    position: absolute;
+    width: 100%;
+    height: 20%;  
+    text-align: left;
+    padding: 0;
+}
+
+h1{
+    display: inline-block;
+    margin-top: 4%;
+    margin-left: 10%;
+    background: #000;
+}
+
+
+
+p{
+
+    background: #000; 
+ 
+}
+
+
+.logo{
+    height: 70%;
+    position: absolute;
+    top: 15%;
+    left: 1vw;
+}
+
+.usuario{
+    height: 70%;
+    position: absolute;
+    top: 15%;
+    right: 2%;
+    border-radius: 100%;
+}
+
+.title{
+    
+    position: absolute;
+    font-size: 4vh;
+    top: 25%;
+    left: 34%;
+    background: #fff;
+}
+
+form{
+    position: absolute;
+    top: 25%;
+    left: 15%;
+    background: #f0f0f0;
+    text-align: center;
+    height: 75%;
+    width: 70%;
+    font-size: 10vh;
+    padding: 0;
+}
+
+
+.lgogris{
+    height: 35%;
+}
+
+h2{
+    background: #f0f0f0;
+    font-size: 40%;
+    text-align: center;
+}
+
+
+
+input{
+    position: absolute;
+    height: 6%;
+    width: 40%;
+    text-align: center;
+    background: #000;
+    color: #fff;
+    display: inline; 
+}
+
+.doc{
+    left: 7%;
+    top: 50%;
+}
+
+.nombre{
+    left: 7%;
+    top: 60%;
+    
+}
+
+.telefono{
+    left: 7%;
+    top: 70%;
+}
+
+.horario{
+    top: 50%;
+    right: 7%;
+}
+
+.salario{
+   top: 60%;
+   right: 7%;
+}
+
+.experiencia{
+    top: 70%;
+    right: 7%;
+}
+
+
+.boton{
+    border: none;
+    border-radius: 1%;
+    top: 80%;
+    left: 30%;
+}
+
+.boton:hover{
+    cursor: pointer;
+    
+}
+
+
+/*********/
+
+.orden{
+    display: inline-block;
+    position: absolute;
+    height: 30%;
+    width: 30%;
+    margin-top: 17%;
+    margin-left: 2%;
+    background: #E1500F;
+    color: #000;
+    
+}
+
+.venta{
+    display: inline-block;
+    position: absolute;
+    height: 30%;
+    width: 30%;
+    margin-top: 17%;
+    margin-left: 35%;
+    background: #E10F0F;
+    color: #000;
+}
+
+.empleados{
+    display: inline-block;
+    position: absolute;
+    height: 30%;
+    width: 30%;
+    margin-top: 17%;
+    margin-left: 68%;
+    background: #E1E00F;
+    color: #000;
+}
+
+.platos{
+    display: inline-block;
+    position: absolute;
+    height: 30%;
+    width: 30%;
+    margin-top: 35%;
+    margin-left: 2%; 
+    background: #14C606;
+    color: #000;
+}
+
+.categorias{
+    display: inline-block;
+    position: absolute;
+    height: 30%;
+    width: 30%;
+    margin-top: 35%;
+    margin-left: 35%;
+    background: #0F28E1;
+    color: #000;
+}
+
+.orden_img{
+    height: 70%;
+    margin-left: 5%;
+    margin-top: 9%;
+}
+.carrito{
+    display: inline-block;
+     height: 70%;
+    margin-left: 5%;
+    margin-top: 9%;
+}
+
+.empleados_img{
+    display: inline-block;
+     height: 70%;
+    margin-left: 5%;
+    margin-top: 9%;
+}
+
+.platos_img{
+    display: inline-block;
+     height: 70%;
+    margin-left: 5%;
+    margin-top: 9%;
+}
+
+.categorias_img{
+    display: inline-block;
+     height: 70%;
+    margin-left: 5%;
+    margin-top: 9%;
+}
+
+h3{
+    position: absolute;
+    display: inline;
+    
+    font-size: 4vh;
+    margin-top: 9%;
+    margin-left: 4%;
+    color: #fff;
+}
+
+
+
+
+
